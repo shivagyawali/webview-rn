@@ -7,7 +7,7 @@ const Splash = () => {
   
   return (
     <>
-      <StatusBar barStyle="dark-content" />
+      <StatusBar/>
       <SafeAreaView style={{flex: 1}}>
       
          <LottieView source={require('../assets/splash.json')} autoPlay loop />
